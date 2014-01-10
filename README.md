@@ -26,16 +26,16 @@ Structure
 --------
 The documentation structure consists in four submission forms:   
  
-1.	Project  
+**1.	Project** 
 What is your interactive project about? What is it for? What functions and metaphors it involves? Can you refer to something similar?  
 
-2.	Designs   
+**2.	Designs**   
 How is the design of your project? What objects, structure, parts is made of? What techniques and machines you used to create it?  
 
-3.	Code  
+**3.	Code**  
 What software or language your application is based on? How it works? Which libraries or codes from other projects it includes?  
 
-4.	Hardware and electronics    
+**4.	Hardware and electronics** 
 What hardware your project uses? What sensors and actutators if features? What electronic components it uses and other project schematics?
 
 
