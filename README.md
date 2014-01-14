@@ -1,7 +1,7 @@
 DAA Documentation
 ================
 
-Students' projects developed during the course Designing Advanced Artifacts
+Students' projects developed during the module Designing Advanced Artifacts (CAS2)
 --------
 
 This is the repository of the projects developed by students of Master of Advanced Studies in Interaction Design during the CAS2 Designing Advanced Artifacts.[CAS2 Designing Advanced Artifacts](http://www.maind.supsi.ch/program-overview/structure-2/module-2/ "Title")
