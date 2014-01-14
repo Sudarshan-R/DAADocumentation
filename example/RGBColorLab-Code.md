@@ -25,14 +25,14 @@ Used values:	valinR_lowL = 300, valinG_lowL = 190, valinB_lowL = 180
 Here there are the calibration values we get:
 
 R	G	B
-White	522	508	395
-Black	108	109	65
-Magenta	502	182	204
-Green	167	234	132
-Cyan	283	358	284
-Blue	175	207	203
-Orange	493	200	158
-Red	494	192	160
+White	522	508	395  
+Black	108	109	65  
+Magenta	502	182	204  
+Green	167	234	132  
+Cyan	283	358	284  
+Blue	175	207	203  
+Orange	493	200	158  
+Red	494	192	160  
 
 
 In the setup() the serial connection is started and the pins defined.
@@ -50,21 +50,32 @@ In the setup() the serial connection is started and the pinMode defined.
 In the loop() the program start by dividing the serial data once available in the three variable corresponding to each color. When the return command ‘\n’  is received the program enter in the LED bars updating part.
 For each bar the values are sampled down from 0-255 to a range of 7 values each one corresponding an odd binary number to switch on the LEDs as a bar, that means:
 
-from	… to	New value	Binary equivalent
-0	36	1	00000001
-37	72	3	00000011
-73	108	7	00000111
-109	144	15	00001111
-145	180	31	00011111
-181	216	63	00111111
-217	255	127	01111111
+from,	… to,	New value,	Binary equivalent
+0	36	1	00000001  
+37	72	3	00000011  
+73	108	7	00000111  
+109	144	15	00001111  
+145	180	31	00011111  
+181	216	63	00111111  
+217	255	127	01111111  
 
 After that the shift register 595 are updated with the new values: as first the program turn low (0) the latch pin to switch off the LED bars during the values sanding. Then whit the shiftOut() function it send the new value by updating all the 595 output pins and at the and he switch on the LEDs by touring high (1) the latch pin.
-3. libraries 
-List the external libraries to include in the code project
-4. reference to other codes and projects
-Indicate other projects codes and provide the links to the source page, if any.
-9. license
+
+Libraries 
+--------
+Nonce
+
+Reference to other codes and projects
+--------
+Arduino trcece svjetlo sa dva 74HC595
+http://fritzing.org/projects/arduino-trcece-svjetlo-sa-dva-74hc595/
+
+License
+--------
 Define the license you are going to adopt for this project
-5. file
+
+File
+--------
+Github path
+
 Upload the source files of your application
