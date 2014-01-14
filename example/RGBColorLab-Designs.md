@@ -10,7 +10,7 @@ The color board cut in the laser cut, and color paper pated to it.
 
 Machines and tools
 --------	
-Illustrator, rhino, laser cut machine
+Illustrator, Rhinoceros, laser cut machine
 
 References to other designs
 --------
