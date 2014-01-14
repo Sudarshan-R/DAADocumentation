@@ -24,7 +24,7 @@ Lower limits: much more tricky to find out. The process is the following:
 Used values:	valinR_lowL = 300, valinG_lowL = 190, valinB_lowL = 180
 Here there are the calibration values we get:
 
-R	G	B
+R	G	B  
 White	522	508	395  
 Black	108	109	65  
 Magenta	502	182	204  
@@ -67,8 +67,9 @@ Nonce
 
 Reference to other codes and projects
 --------
-Arduino trcece svjetlo sa dva 74HC595
-http://fritzing.org/projects/arduino-trcece-svjetlo-sa-dva-74hc595/
+
+[Arduino trcece svjetlo sa dva 74HC595](http://fritzing.org/projects/arduino-trcece-svjetlo-sa-dva-74hc595/ "Title")
+
 
 License
 --------
