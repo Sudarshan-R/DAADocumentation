@@ -15,12 +15,12 @@ After multiple iterations, we landed upon the concept of a board game, wherein t
 INTERFACE  AND INTERACTION MODALITY:
 The main interface in question is a board which contains fourteen hexagonal cells. Then comes the four pieces or treasures which are to be hidden and discovered by both players, respectively. Finally we have a player character which is used as a pawn to discover the treasures, which makes it in essence a journeyman. 
 
-To inform each player of their progress and that of his/her opponents, we make used of a score board made of 8 LED’s. The first four LED’s let the player know what their score is and the next four tells them about their opponent’s progress.
+To inform each player of their progress and that of his/her opponents, we make use of a score board made of 8 LED’s. The first four LED’s let the player know what their score is and the next four tells them about their opponent’s progress.
 
 To let the players know the game state and their respective turns, we make use of an RGB LED embedded in each board, which turns red when another player is making his/her move and turns green when it is the current player’s turn to make a move. They flash under the auspices of the colour blue when either player wins the game and also at the beginning of the game.  
   
 USER EXPERIENCE:
-The user experience can be spilt into two segments. The first can be divided further into two sub-segments, the first of which comprises of switching on the system and inviting another player for a game. This done by pressing the on button and when the other player does the same, both LED’s in both boards glow blue.
+The user experience can be spilt into two segments. The first can be divided further into two sub-segments, the first of which comprises of switching on the system and inviting another player for a game. This is done by pressing the on button and when the other player does the same, both LED’s in both boards glow blue.
 
 The second segment comprises of hiding the treasures on both boards. This is fairly straightforward and both players hide their four treasures cards at different locations in their boards. These locations are then sent over to the opponent’s board, where it remains invisible until discovered by that player.
 
