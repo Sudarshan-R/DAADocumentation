@@ -10,7 +10,7 @@ ABSTRACT:
 In this project, the aim was to come up with a concept under the topic of “The internet of things” and under the theme “The messiness of the home environment”.
 Our team chose to study the possibilities with children and the devising of equipment for them that had to be fun and serve a purpose.
 
-After multiple iterations, we landed upon the concept of a board game called Treasure hunter, wherein the idea is to hide multiple(four) treasures within the confines of a 14 celled hexagonal board and the opponent has to discover where these treasures were hidden using a unique player character and their own board. The first to discover the other’s four treasures pieces is the winner of the game.    
+After multiple iterations, we landed upon the concept of a board game, wherein the idea is to hide multiple(four) treasures within the confines of a 14 celled hexagonal board and the opponent has to discover where these treasures were hidden using a unique player character and their own board. The first to discover the other’s four treasures pieces is the winner of the game.    
   
 INTERFACE  AND INTERACTION MODALITY:
 The main interface in question is a board which contains fourteen hexagonal cells. Then comes the four pieces or treasures which are to be hidden and discovered by both players, respectively. Finally we have a player character which is used as a pawn to discover the treasures, which makes it in essence a journeyman. 
